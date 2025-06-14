@@ -22,7 +22,7 @@ public class Basetest {
         System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver.exe");
 
         //Initilize the chromeDriver
-        driver = new ChromeDriver();
+        driver = new    ChromeDriver();
 
         //Maximize the browser window
         driver.manage().window().maximize();
